@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/SecureRestore/static/css/main.ffbf69ae.css",
+    "main.js": "/SecureRestore/static/js/main.a628f978.js",
+    "static/media/hero-banner.jpg": "/SecureRestore/static/media/hero-banner.b694aaa104d6b92112c2.jpg",
+    "static/media/end-to-end.jpg": "/SecureRestore/static/media/end-to-end.e454c292f1ddcd795636.jpg",
+    "static/media/ransomeware-solution.jpg": "/SecureRestore/static/media/ransomeware-solution.3fc6d111a8c09282b9c9.jpg",
+    "static/media/data-recovery.jpg": "/SecureRestore/static/media/data-recovery.ec2fc2d95deb677f3c80.jpg",
+    "static/media/about-banner.jpg": "/SecureRestore/static/media/about-banner.257502475dcb64623c38.jpg",
+    "static/media/service-banner.jpg": "/SecureRestore/static/media/service-banner.2c4650fabcf739b31843.jpg",
+    "static/media/contact-banner.jpg": "/SecureRestore/static/media/contact-banner.fd76c75024710d8b3470.jpg",
+    "static/media/malware-protection.png": "/SecureRestore/static/media/malware-protection.daec8c4bf96cf1f16360.png",
+    "index.html": "/SecureRestore/index.html",
+    "main.ffbf69ae.css.map": "/SecureRestore/static/css/main.ffbf69ae.css.map",
+    "main.a628f978.js.map": "/SecureRestore/static/js/main.a628f978.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffbf69ae.css",
+    "static/js/main.a628f978.js"
+  ]
+}
