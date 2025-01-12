@@ -3,11 +3,11 @@
   display: grid;
   justify-content: end; /* Aligns content to the right horizontally */
   align-content: center; /* Aligns content to the middle vertically */
-  width: 50%; /* Optional: Adjust as needed */
+  width: 40%; /* Optional: Adjust as needed */
   padding: 20px; /* Adds spacing inside the container */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow */
   border-radius: 10px; /* Optional: Adds rounded corners */
-  text-shadow: 1px 1px 2px white;
+  
   
 }
 .contact-heading h1 {
@@ -20,7 +20,7 @@
   display: flex;
   align-content: center;
   justify-content: center;
-  
+  font-weight: bold;
 }
 
 .contact-banner {
@@ -37,8 +37,8 @@
 }
 
 .contact-info p {
-  font-size: 15px;
-  text-shadow: 1px 2px 2px white;
+  font-size: 20px;
+  font-weight: bold;
   font-weight: 800px;
   
 }
