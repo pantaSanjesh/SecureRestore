@@ -1,0 +1,76 @@
+
+  .services-banner {
+    background: url('../assets/img/service-banner.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center align all content */
+    padding: 20px;
+    color: #fff; /* Sets font color to white for better contrast */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); 
+  }
+  
+
+  
+  .service-cards {
+    background-color: rgba(255, 255, 255, 0.8); /* White with 80% opacity */
+    padding: 20px; /* Adds some spacing inside the cards */
+    border-radius: 10px; /* Optional: Rounds the corners for better aesthetics */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    display: flex;
+    gap: 20px; /* Adds space between the cards */
+    max-width: 800px; /* Limit the carousel's width */
+  margin: 0 auto; /* Center the carousel */
+  }
+  
+  .service-card {
+    background-color: rgba(255, 255, 255, 0.6); /* Slightly more transparent for individual cards */
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1; /* Makes all cards equal width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adds shadow for individual cards */
+  }
+  
+  .service-card img {
+    max-width: 100%; /* Ensures the image fits within the card */
+    border-radius: 5px; /* Optional: Rounds the image corners */
+  }
+  
+  .service-card h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .swiper {
+    width: 100%; /* Full width of the container */
+    max-width: 600px; /* Optional: Limit maximum width */
+    height: 300px; /* Adjust height */
+    margin: 0 auto; /* Center the slider */
+  }
+  
+  .swiper-slide img {
+    width: 100%; /* Ensure the image fills the slide */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Crop image to fit the slide without stretching */
+  }
+
+  .carousel img {
+    width: 100%; /* Ensures the image takes full width of its container */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Ensures the image fills the space without distortion */
+    max-height: 400px; /* Optional: Limits the maximum height of the image */
+  }
+  
+  

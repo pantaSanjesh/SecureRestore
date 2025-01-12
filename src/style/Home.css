@@ -1,0 +1,158 @@
+.home {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue */
+    color: #000; /* Black for text */
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('../assets/img/hero-banner.jpg') center/cover no-repeat; /* Replace with a hero image */
+    /* color:#FFA500 #FFD700*/;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    padding: 60px 20px;
+    height: 300px;
+    color: #fff; /* Sets font color to white for better contrast */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); 
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    
+  }
+  
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-secondary {
+    background-color: white;
+    color: #007bff;
+    border: 2px solid #007bff;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Services Overview */
+  .services-overview {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .services-overview h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .service-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card img {
+    width: 30%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    color: #555;
+  }
+  
+  /* Why Choose Us */
+  .why-choose-us {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .why-choose-us h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .why-choose-us p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .why-choose-us ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .why-choose-us ul li {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #007bff;
+  }
+  
+  /* Testimonials */
+  .testimonials {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .testimonial span {
+    display: block;
+    font-style: italic;
+    margin-top: 10px;
+    color: #333;
+  }
+  
