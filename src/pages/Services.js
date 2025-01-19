@@ -2,7 +2,7 @@ import React from "react";
 import "../style/Service.css";
 import dataRecoveryIcon from "../assets/slider/data-recovery.jpg";
 import ransomeIcon from "../assets/slider/ransomeware-solution.jpg";
-import endtoend from "../assets/slider/end-to-end.jpg"
+import endtoend from "../assets/slider/end-to-end.jpg";
 
 // Import Bootstrap Carousel
 import Carousel from "react-bootstrap/Carousel";
@@ -21,8 +21,7 @@ function Services() {
                 <img
                   className="d-block w-100"
                   src={dataRecoveryIcon}
-                  alt="First slide"
-                  
+                  alt="Data Recovery"
                 />
                 <Carousel.Caption>
                   <h5>Data Recovery</h5>
@@ -35,21 +34,24 @@ function Services() {
                 <img
                   className="d-block w-100"
                   src={ransomeIcon}
-                  alt="Second slide"
-                   
+                  alt="Ransomware Protection"
                 />
                 <Carousel.Caption>
-                  <h5>Ransomware Protection</h5>
-                  <p>Secure your systems from ransomware attacks.</p>
+                <h5>Ransomware Solution</h5>
+                <p>Restore your systems and recover from ransomware attacks effectively.</p>
                 </Carousel.Caption>
               </Carousel.Item>
 
               {/* Third Slide */}
               <Carousel.Item>
-                <img className="d-block w-100" src={endtoend} alt="Third slide"   />
+                <img
+                  className="d-block w-100"
+                  src={endtoend}
+                  alt="End-to-End Solutions"
+                />
                 <Carousel.Caption>
-                  <h5>Our  Motive</h5>
-                  <p>We provide end-to-end data recovery solutions.</p>
+                  <h5>End-to-End Solutions</h5>
+                  <p>We provide comprehensive data recovery services.</p>
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
