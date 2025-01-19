@@ -1,44 +1,82 @@
-.contact {
-  color: #000;
-  display: grid;
-  justify-content: end; /* Aligns content to the right horizontally */
-  align-content: center; /* Aligns content to the middle vertically */
-  width: 40%; /* Optional: Adjust as needed */
-  padding: 20px; /* Adds spacing inside the container */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow */
-  border-radius: 10px; /* Optional: Adds rounded corners */
-  
-  
-}
-.contact-heading h1 {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  
-}
-.contact-heading p {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  font-weight: bold;
-}
-
+/* General Styles */
 .contact-banner {
-  background: url("../assets/img/contact-banner.jpg");
+  background: url("../assets/img/contct-banner.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
-  display: flex; 
-  justify-content: flex-end; 
-  color: #fff; /* Sets font color to white for better contrast */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); 
+  display: flex;
+  justify-content: center; /* Center the contact box */
+  align-items: center; /* Center vertically */
+  color: #fff; /* Text color */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  padding: 20px; /* Padding for spacing */
+  box-sizing: border-box;
+}
+
+/* Contact Container */
+.contact {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 90%; /* Responsive width */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Heading Styles */
+.contact-heading h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.contact-heading p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.force-new-line {
+  display: block;
+  margin-top: 10px; /* Space between lines */
+}
+
+/* Contact Info Section */
+.contact-info {
+  margin-top: 20px;
 }
 
 .contact-info p {
-  font-size: 20px;
+  font-size: 1rem;
+  margin: 10px 0;
   font-weight: bold;
-  font-weight: 800px;
-  
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .contact {
+    padding: 20px;
+  }
+
+  .contact-heading h1 {
+    font-size: 1.8rem;
+  }
+
+  .contact-heading p,
+  .contact-info p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-heading h1 {
+    font-size: 1.5rem;
+  }
+
+  .contact-heading p,
+  .contact-info p {
+    font-size: 0.9rem;
+  }
 }

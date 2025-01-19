@@ -51,7 +51,7 @@ function Home() {
         <ul>
           <li>✅ Proven track record in data recovery</li>
           <li>✅ State-of-the-art tools and technology</li>
-          <li>✅ 24/7 support from experienced professionals</li>
+          <li>✅ Support from experienced professionals(7:00 AM to 12:00 AM)</li>
         </ul>
       </section>
 
