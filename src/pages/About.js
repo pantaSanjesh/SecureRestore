@@ -1,6 +1,5 @@
 import React from 'react';
 import '../style/About.css';
-import aboutImg from '../assets/img/hero-banner.jpg';
 
 function About() {
   return (
