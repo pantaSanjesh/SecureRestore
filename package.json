@@ -17,7 +17,7 @@
     "slick-carousel": "^1.8.1",
     "swiper": "^11.2.0"
   },
-  "homepage": "https://pantaSanjesh.github.io/SecureRestore/",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
