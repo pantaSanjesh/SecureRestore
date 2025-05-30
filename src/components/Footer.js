@@ -1,13 +1,40 @@
-import React from 'react';
+import React from "react";
+import { Helmet } from "react-helmet";
 
 function Footer() {
   return (
-    <footer className="bg-dark text-white text-center text-lg-start py-3 mt-4">
+    <footer
+      className="bg-dark text-white text-center text-lg-start py-3 mt-4"
+      role="contentinfo"
+      aria-label="Footer"
+    >
+      <Helmet>
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Secure Restore",
+            "url": "https://www.safesecurerestore.com",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+977-9763481590",
+              "contactType": "Customer Service",
+              "availableLanguage": ["English", "Nepali"]
+            }
+          }
+          `}
+        </script>
+      </Helmet>
+
       <div className="container">
         <div className="row">
           {/* Left Section */}
           <div className="col-lg-6 text-lg-start mb-2">
-            <p>&copy; {new Date().getFullYear()} Recovery Experts. All Rights Reserved.</p>
+            <p>
+              &copy; {new Date().getFullYear()} Secure Restore. All Rights
+              Reserved.
+            </p>
           </div>
 
           {/* Right Section */}
